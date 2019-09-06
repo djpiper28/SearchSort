@@ -135,7 +135,7 @@ public class sortsearch {
 			finished = true;
 			for(int i = 0; i<Data.length ; i++) {
 				for(int j = 0;j<Data.length; j++) {
-					if(Data[i].compareTo(Data[j]) >= 0 && i < j) {
+					if(Data[i].compareTo(Data[j]) > 0 && i < j) {
 						Data = swap(i, j, Data);
 						finished = false;
 					}
